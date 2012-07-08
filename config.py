@@ -19,7 +19,7 @@ CONFIG = {
   # A name for the hompage and titles.
   'site_name': 'BAM Membership Specials',
   # A description for the home page
-  'site_description': 'Receive reminders about Brooklyn Academy of Music membership specials when you check in to supporting, local businesses',
+  'site_description': 'Receive reminders about Brooklyn Academy of Music membership specials when you check in to supporting local businesses',
   # If true, we use local_server, and log actions instead of POSTing to foursquare
   # Be sure to set this to false when you actually want to deploy.
   'local_dev': False,
