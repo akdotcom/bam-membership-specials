@@ -2,6 +2,12 @@
 <html>
 <head>
   <title>{{ name|escape }}</title>
+  <style>
+  .privacy {
+    position: absolute;
+    bottom: 10px;
+  }
+  </style>
   <meta content="width=320" name="viewport" />
 </head>
 <body>
@@ -14,9 +20,10 @@
       <img src="img/connect-white.png" />
     </a>
   </div>
-  <div class="authed" style="display: none;">
-    All set
-  </div>
+  <div class="authed" style="display: none;"></div>
+  <br/><br/>
+  <div class="privacy">
+  <a href="static/privacy.html">Privacy Policy</a></div>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js"></script>
   <script type="text/javascript">
     client_id = "{{ client_id }}";
